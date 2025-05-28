@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "comfyui-skycoder-tools"
-version = "1.0.2"
+version = "1.0.3"
 description = "A collection of useful custom nodes for ComfyUI workflows"
 authors = [
     {name = "Skycoder182", email = "skycoder@example.com"}
@@ -39,4 +39,4 @@ Discussions = "https://github.com/skycoder182/comfyui-skycoder-tools/discussions
 [tool.comfy]
 PublisherId = "skycoder"
 DisplayName = "Skycoder Tools"
-Icon = "https://github.com/skycoder182/comfyui-skycoder-tools/blob/main/Icon.png"
+Icon = "https://raw.githubusercontent.com/skycoder182/comfyui-skycoder-tools/main/Icon.png"
