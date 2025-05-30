@@ -14,6 +14,7 @@ A comprehensive collection of useful custom nodes for ComfyUI workflows. Designe
 - **BLIP2 Image Caption**: Automatically generates a descriptive caption for an input image using Salesforce’s BLIP image captioning model. Ideal for semantic image analysis or annotation tasks.
 - **Boolean Toggle**: Returns a boolean value from a toggle input. Useful for conditionally controlling workflow branches.
 - **Concatenate and Test if Empty**: Concatenates up to four text inputs and checks whether the result is empty. Outputs both the combined string and a boolean indicating if it's empty.
+- **ImageBasicNode**: Perform basic image operations such as resizing (with optional aspect ratio preservation) and grayscale conversion. Returns the processed image along with useful metadata like width, height, aspect ratio, color mode, and format. Ideal for simple preprocessing tasks within your ComfyUI workflows.
 
 *More tools coming soon! This is just the beginning of the Skycoder Tools collection.*
 
