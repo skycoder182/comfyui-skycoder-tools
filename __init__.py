@@ -8,7 +8,7 @@ from .nodes.Aspect_Ratio_and_Tile_size_calculator import NODE_CLASS_MAPPINGS as 
 from .nodes.blipimagecaptioning import NODE_CLASS_MAPPINGS as BLIP_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as BLIP_DISPLAY_MAPPINGS
 from .nodes.BooleanToggleNode import NODE_CLASS_MAPPINGS as TOGGLE_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as TOGGLE_DISPLAY_MAPPINGS
 from .nodes.concatenate_and_test_if_empty import NODE_CLASS_MAPPINGS as CONCAT_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as CONCAT_DISPLAY_MAPPINGS
-from .nodes.ImageBasicNode import NODE_CLASS_MAPPINGS as BASIC_MAPPINGS
+from .nodes.ImageBasicNode import NODE_CLASS_MAPPINGS as BASIC_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS as BASIC_DISPLAY_MAPPINGS
 
 # Combine all Node Mappings
 NODE_CLASS_MAPPINGS = {}
@@ -30,12 +30,13 @@ NODE_CLASS_MAPPINGS.update(CONCAT_MAPPINGS)
 NODE_DISPLAY_NAME_MAPPINGS.update(CONCAT_DISPLAY_MAPPINGS)
 
 NODE_CLASS_MAPPINGS.update(BASIC_MAPPINGS)
+NODE_DISPLAY_NAME_MAPPINGS.update(BASIC_DISPLAY_MAPPINGS)
 
 # Exportiere alle Node-Mappings für ComfyUI
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
 # Metadaten
-__version__ = "1.0.0"
+__version__ = "1.0.5"
 __author__ = "Skycoder"
 __description__ = "A collection of useful custom nodes for ComfyUI workflows"
 __license__ = "MIT"
